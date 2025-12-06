@@ -53,6 +53,39 @@
 </p>
 
 
+### :books: Citation
+If you find this work helpful, please kindly consider citing our papers:
+
+```bibtex
+@inproceedings{kong2023robodepth,
+    title     = {{RoboDepth}: Robust Out-of-Distribution Depth Estimation under Corruptions},
+    author    = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit R. and Ooi, Wei Tsang},
+    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+    volume    = {36},
+    pages     = {21298-21342},
+    year      = {2023}
+}
+```
+
+```bibtex
+@article{kong2023robodepth_challenge,
+    title     = {The {RoboDepth} Challenge: Methods and Advancements Towards Robust Depth Estimation},
+    author    = {Kong, Lingdong and Niu, Yaru and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit and Zhao, Ding and Zhang, Liangjun and Wang, Hesheng and Ooi, Wei Tsang and Zhu, Ruijie and Song, Ziyang and Liu, Li and Zhang, Tianzhu and Yu, Jun and Jing, Mohan and Li, Pengwei and Qi, Xiaohua and Jin, Cheng and Chen, Yingfeng and Hou, Jie and Zhang, Jie and Kan, Zhen and Lin, Qiang and Peng, Liang and Li, Minglei and Xu, Di and Yang, Changpeng and Yao, Yuanqi and Wu, Gang and Kuai, Jian and Liu, Xianming and Jiang, Junjun and Huang, Jiamian and Li, Baojun and Chen, Jiale and Zhang, Shuang and Ao, Sun and Li, Zhenyu and Chen, Runze and Luo, Haiyong and Zhao, Fang and Yu, Jingze},
+    journal   = {arXiv preprint arXiv:2307.15061}, 
+    year      = {2023}
+}
+```
+
+```bibtex
+@misc{kong2023robodepth_benchmark,
+    title     = {The {RoboDepth} Benchmark for Robust Out-of-Distribution Depth Estimation under Corruptions},
+    author    = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Cottereau, Benoit and Ng, Lai Xing and Ooi, Wei Tsang},
+    howpublished = {\url{https://github.com/ldkong1205/RoboDepth}}, 
+    year      = {2023}
+}
+```
+
+
 ## Updates
 - \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for the [RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
 - \[2023.12\] - We are hosting the [RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
@@ -305,38 +338,8 @@ You can manage to create your own "RoboDepth" corruption sets! Follow the instru
 - [x] Add download link of KITTI-C and NYUDepth2-C.
 - [x] Add competition data.
 - [x] Add benchmarking results.
-- [ ] Add evaluation scripts on corruption sets.
+- [x] Add evaluation scripts on corruption sets.
 
-
-## Citation
-If you find this work helpful, please kindly consider citing our papers:
-
-```bibtex
-@inproceedings{kong2023robodepth,
-  title = {RoboDepth: Robust Out-of-Distribution Depth Estimation under Corruptions},
-  author = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit R. and Ooi, Wei Tsang},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year = {2023},
-}
-```
-
-```bibtex
-@article{kong2023robodepth_challenge,
-  title = {The RoboDepth Challenge: Methods and Advancements Towards Robust Depth Estimation},
-  author = {Kong, Lingdong and Niu, Yaru and Xie, Shaoyuan and Hu, Hanjiang and Ng, Lai Xing and Cottereau, Benoit and Zhao, Ding and Zhang, Liangjun and Wang, Hesheng and Ooi, Wei Tsang and Zhu, Ruijie and Song, Ziyang and Liu, Li and Zhang, Tianzhu and Yu, Jun and Jing, Mohan and Li, Pengwei and Qi, Xiaohua and Jin, Cheng and Chen, Yingfeng and Hou, Jie and Zhang, Jie and Kan, Zhen and Lin, Qiang and Peng, Liang and Li, Minglei and Xu, Di and Yang, Changpeng and Yao, Yuanqi and Wu, Gang and Kuai, Jian and Liu, Xianming and Jiang, Junjun and Huang, Jiamian and Li, Baojun and Chen, Jiale and Zhang, Shuang and Ao, Sun and Li, Zhenyu and Chen, Runze and Luo, Haiyong and Zhao, Fang and Yu, Jingze},
-  journal = {arXiv preprint arXiv:2307.15061}, 
-  year = {2023},
-}
-```
-
-```bibtex
-@misc{kong2023robodepth_benchmark,
-  title = {The RoboDepth Benchmark for Robust Out-of-Distribution Depth Estimation under Corruptions},
-  author = {Kong, Lingdong and Xie, Shaoyuan and Hu, Hanjiang and Cottereau, Benoit and Ng, Lai Xing and Ooi, Wei Tsang},
-  howpublished = {\url{https://github.com/ldkong1205/RoboDepth}}, 
-  year = {2023},
-}
-```
 
 
 ## License
